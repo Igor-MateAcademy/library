@@ -1,0 +1,39 @@
+.header {
+  padding: 40px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 140px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ddd;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  list-style: none;
+}
+
+.item {
+  > a {
+    position: relative;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ddd;
+    transition: all 0.4s;
+  }
+}
+
+.main {
+  padding: 40px 80px;
+}

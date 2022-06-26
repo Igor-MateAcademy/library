@@ -1,0 +1,59 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 200px;
+}
+
+.button {
+  padding: 32px;
+  width: 100%;
+  border: 2px solid #eee;
+  border-radius: 9px;
+  background-color: transparent;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #eee;
+    cursor: pointer;
+  }
+}
+
+.name {
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.author {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.publisher {
+  font-size: 15px;
+  line-height: 1;
+  color: #d3d3d3;
+}

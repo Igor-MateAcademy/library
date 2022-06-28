@@ -22,7 +22,7 @@ const AddLogModal: React.FC<Props> = ({ children, update, customers, books, log 
 
   const [open, setOpen] = useState<boolean>(false);
   const [data, setData] = useState<Partial<Log>>({ dateTaking: moment() });
-  const [availableBooks, setAvailableBooks] = useState<Book[]>([...books]);
+  const [availableBooks, setAvailableBooks] = useState<Book[]>([]);
 
   const onToggle = () => {
     !open && form.resetFields();

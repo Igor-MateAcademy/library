@@ -7,7 +7,7 @@ import AddLogModal from './AddLogModal';
 
 import { useStore } from 'stores';
 
-import { Book, Customer, Log, PopulatedLog } from 'models';
+import { Book, Customer, PopulatedLog } from 'models';
 
 import styles from './styles.module.scss';
 
